@@ -1,16 +1,22 @@
 @import './base.css';
 
+
+/* === GLOBAL === */
+html, body {
+  margin: 0;            /* enlève la marge par défaut (8px) */
+  padding: 0;
+  background: #111;     /* même fond que le site pour éviter toute bande claire */
+}
+
+/* Compense le header fixe ici (et pas sur body) */
 #app {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 80px 0 0;    /* ajuste 80px à la hauteur réelle de ton header */
   font-weight: normal;
 }
 
-body { 
-  padding-top: 110px; /* Compensation pour que le header puisse suivre le scroll */
-}
-
+/* le reste inchangé */
 a,
 .green {
   text-decoration: none;
@@ -21,6 +27,6 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsla(230, 67%, 34%, 0.2);
   }
 }

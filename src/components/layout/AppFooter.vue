@@ -16,7 +16,7 @@
 
         <!-- Copyright au centre -->
         <div class="col-md-4 text-center">
-          <p class="mb-0">© 2025 GameRadar. Tous droits réservés.</p>
+          <p class="mb-0">© 2025 Loïc Barthoulot. Tous droits réservés.</p>
         </div>
 
         <!-- Social Media Links à droite --> 
